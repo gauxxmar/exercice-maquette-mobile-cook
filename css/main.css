@@ -1,7 +1,7 @@
 /* ====================================
 // css variables
 // ==================================== */
-
+/* font-family: 'Sorts Mill Goudy', serif; */
 :root {
 }
 
@@ -26,6 +26,9 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  font-family: 'Libre Franklin', sans-serif;
+  margin: auto;
+  max-width: 320px;
 }
 
 a {
@@ -42,3 +45,71 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+
+header nav {
+  padding: 20px 70px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: solid;
+}
+
+.start-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.recipe-tag {
+  font-size: 11px;
+  font-weight: 700;
+  color: white;
+  background-color: red;
+  border-radius: 50px;
+  text-align: center;
+  padding: 0 15px;
+  margin: 15px 85px;
+}
+
+h1 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 15px 30px;
+}
+
+.recipe-intro {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.2;
+  margin: 20px;
+}
+
+.recipe-name {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+main {
+  background-color: whitesmoke;
+  padding: 30px 15px;
+}
+
+h2 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+figure {
+  padding: 15px 0;
+}
